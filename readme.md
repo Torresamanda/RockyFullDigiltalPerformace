@@ -2,11 +2,11 @@
 
 ## Um pouco sobre o projeto...
 
-### <p align="justify">
+<p align="justify">
     O desafio proposto pela Rocky foi desenvolver um site resposivo adequado para a versão mobile, com um menu hamburger. Tendo que ser uma site bem estruturado e estilizado com fácil entendimento.
 </p>
 
-### <p align="justify">
+<p align="justify">
     As minhas maiores dificuldades foi deixar todo o site resposivo para mobile, utilizando as medias queries já que ainda não tinha utilizado ela para mobile, também tive alguns problemas no menu, então eu pesquisei bastante como fazer e acabei adquerindo um novo conhecimento e no final deu tudo certo. 
 </p>
 
