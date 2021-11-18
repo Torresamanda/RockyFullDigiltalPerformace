@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Background*/
+body,html{
+    height: 100%;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+
+/* Cabeçalho */
+header .container{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+header .logo{
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color: #00BFFF;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+#menu a {
+    display: block;
+    padding-top: .5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+.caixa{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(img/s1\ ft1.png);
+    position: relative;
+    height: 120%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: auto;
+}
+
+/*Principal*/
+.principal {
+    position: absolute;
+    left: 0%;
+    top: 25%;
+    width: 100%; 
+}
+
+.principal .titulo{
+    font-size: 6.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal .descricao {
+    font-size: 13px;
+    text-align: center;
+    padding: 5em 30em 5em 30em;
+}
+
+.principal .principal-botao{
+    text-align: center;
+}
+
+/*Botão*/
+#botao {
+    background-color: rgb(0,191,255);
+    border: none;
+    color: white;
+    
+    padding: 20px 40px;
+    font-size: 17px;
+   
+    cursor: pointer;
+    border-radius: 30px;
+    transition: .3s ease all;
+}
+
+#botao:hover{
+    background-color: white;
+    color: black;
+}
+
+/*Geral*/
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 30px;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 2em;
+    margin-left: 150px;
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+
+/*Segunda parte*/
+.sobre {
+    background-color: white;
+    padding: 22px;
+    margin-left: 150px;
+    margin-right: 520px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 1em black;
+}
+
+.descricao-sobre {
+    color: black;
+    font-size: 12px;
+}
+
+/*Terceira parte servicos*/
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 120px;
+}
+
+.item-all{
+    height: 250px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.conteudo-servico {
+    color: white;
+    text-align: center;
+    width: 420px;
+    height: 420px;
+    margin: 30px;
+}
+
+.primeira-imagem {
+    background-image: url(img/s3\ ft1.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    border-radius: 30px;
+}
+
+.segunda-imagem {
+    background: url(img/s3\ ft2.png);
+    background-repeat: no-repeat;
+    background-position: center ; 
+    border-radius: 30px;
+}
+
+.terceira-imagem {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.50)50%), url(img/s3\ ft3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 30px;
+}
+
+#servico-texto {
+    font-size: 1.8em;
+}
+
+.servico-descricao {
+    color: white;
+    margin: 40px;
+    text-align: center;
+}
+
+h3 a {
+    list-style: none;
+    color: black;
+}
+
+h3 a:hover{
+    color: black;
+}
+
+/*Quarta parte diferenciais*/
+.conteudo-diferenciais {
+    color: white;
+    width: 250px;
+    height: 440px;
+    text-align: center;
+    
+}
+
+.quarta-imagem {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.50)100%), url(img/s4\ ft1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 40px;
+    margin-right: 175px;
+}
+
+.quinta-imagem {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.50)100%), url(img/s4\ ft2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 40px;
+    margin-right: 175px;
+}
+
+.sexta-imagem {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,.50)100%), url(img/s4\ ft3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 40px;
+}
+
+.conteudo-diferenciais i {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.descricao-diferenciais {
+    text-align: center;
+    padding: 40px;
+}
+
+/*Rodape background*/
+.yellow {
+    background-color: #FFD700;
+}
+
+.rodape-bg {
+    background: url(img/bg-rodape.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+/*Rodape Formulário dúvidas*/
+
+section#formulario {
+    display: flex;
+    float: right;
+    margin-right: 180px;
+}
+
+
+fieldset {
+    margin-top: 50px;
+    padding: 1em;
+    font-size: 1em;
+    background-color: #808080;
+}
+
+input{
+    font-size: 18px; 
+    margin-bottom: 25px;
+    width: 20em;
+    height: 3em;
+    padding-left: 10px;
+}
+
+textarea{
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 20em;
+    height: 6em;
+
+}
+
+input.submit {
+    background-color: rgb(0,191,255);
+    border: none;
+    color: #fff;
+
+    margin-bottom: 20px;
+    font-size: 18.5px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+input.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Informações, redes-sociais, logo, contato e endereço */
+section#rodape-container{
+    width: 500px;
+    padding: 60px;
+}
+
+
+article#logo-rodape {
+    float: left;
+    width: 150px;
+    padding-right: 60px;   
+}
+
+article#redes-sociais {
+    float: left;
+    width: 142px;
+    padding: 4px;
+    padding-left: 90px;
+    padding-bottom: 30px;
+}
+
+article a i {
+    color: white;
+    padding-right: 40px;
+}
+
+article#contato {
+    float: left;
+    font-size: 1em;
+    
+}
+
+article#endereco{
+    float: left;
+    padding-top: 15px;
+}
+
+article#rodape-informacao {
+    float: left;
+    margin: 50px;
+    text-align: justify;
+}
